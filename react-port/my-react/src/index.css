@@ -11,6 +11,7 @@ body {
   background-position-x: center;
   background-repeat: no-repeat;
   background-color: black;
+  background-position-y: -50%;
   overflow:hidden;
   display:block;
   -webkit-font-smoothing: antialiased;

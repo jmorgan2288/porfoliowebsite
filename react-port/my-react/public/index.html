@@ -6,13 +6,28 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="icons" href="../src/assets/backroundblackgold.png" type="image" sizes = '10x10'/>
+      content="Web site created using create-react-app"/>
+      <link rel="shortcut icon" href="/logo2.jpg" />
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""/>
     <title>ForeverSimple</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+
+    <script 
+      type="text/javascript" 
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init(
+              '1y4MPt87qcum7NHcA'
+            );
+        })();
+    </script>
   </body>
 </html>
